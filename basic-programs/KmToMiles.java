@@ -1,0 +1,11 @@
+import java.util.*;
+public class KmToMiles{
+public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+double km;
+km=sc.nextInt();
+double Miles = km/1.6;
+System.out.println("The total Miles is "+Miles+" mile for the given "+km+ " km");
+
+}
+}
